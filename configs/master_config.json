@@ -57,16 +57,16 @@
 
   "indicatorLabels":{
     "COPD QOF": "% patients",
-    "COPD admissions": "deaths per 100,000",
-    "COPD admission per disease register": "months of life lost",
-    "COPD cost per admission": ""
+    "COPD admissions": "admissions per 1,000",
+    "COPD admission per disease register": "admissions per 100 patients",
+    "COPD cost per admission": "£ per admissions"
   },
 
   "indicatorCountLabels":{
-    "COPD QOF": "over 3 years",
-    "COPD admissions": "over 3 years",
-    "COPD admission per disease register": "over 3 years",
-    "COPD cost per admission": "per year"
+    "COPD QOF": "",
+    "COPD admissions": "admissions per 1,000",
+    "COPD admission per disease register": "admissions per 100 patients",
+    "COPD cost per admission": "£ per admissions"
   },
 
 
