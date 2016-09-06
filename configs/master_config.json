@@ -19,17 +19,14 @@
   },
 
   "areaTypeMapping":{
-    "CCGs": "CCG",
-    "Counties": "CU",
-    "Districts": "DU"
+    "CCGs": "CCG"
+
   },
 
-  "areaTypeArray": ["CCG", "CU", "DU"],
+  "areaTypeArray": ["CCG"],
 
   "areaTypeLabels":{
-    "CCGs": "CCGs",
-    "Counties": "counties",
-    "Districts": "districts"
+    "CCGs": "CCGs"
   },
 
 
@@ -43,41 +40,41 @@
 
 
   "indicatorMapping":{
-    "Admission episodes for alcohol-related conditions": "9.01 - Admission episodes for alcohol-related conditions (Broad)",
-    "Alcohol-specific mortality": "2.01 - Alcohol-specific mortality",
-    "Mortality from chronic liver disease": "3.01 - Mortality from chronic liver disease",
-    "Months of life lost due to alcohol": "1.01 - Months of life lost due to alcohol"
+    "COPD QOF": "COPD: QOF prevalence (all ages)",
+    "COPD admissions": "Total COPD admissions per 1,000 population",
+    "COPD admission per disease register": "COPD admissions per 100 patients on disease register",
+    "COPD cost per admission": "COPD cost per admission"
 
   },
 
   "indicatorArray":[
-    "Admission episodes for alcohol-related conditions",
-    "Alcohol-specific mortality",
-    "Mortality from chronic liver disease",
-    "Months of life lost due to alcohol"
+    "COPD QOF",
+    "COPD admissions",
+    "COPD admission per disease register",
+    "COPD cost per admission"
   ],
 
 
   "indicatorLabels":{
-    "Mortality from chronic liver disease": "deaths per 100,000",
-    "Alcohol-specific mortality": "deaths per 100,000",
-    "Months of life lost due to alcohol": "months of life lost",
-    "Admission episodes for alcohol-related conditions": "admissions per 100,000"
+    "COPD QOF": "% patients",
+    "COPD admissions": "deaths per 100,000",
+    "COPD admission per disease register": "months of life lost",
+    "COPD cost per admission": ""
   },
 
   "indicatorCountLabels":{
-    "Mortality from chronic liver disease": "over 3 years",
-    "Alcohol-specific mortality": "over 3 years",
-    "Months of life lost due to alcohol": "over 3 years",
-    "Admission episodes for alcohol-related conditions": "per year"
+    "COPD QOF": "over 3 years",
+    "COPD admissions": "over 3 years",
+    "COPD admission per disease register": "over 3 years",
+    "COPD cost per admission": "per year"
   },
 
 
   "indicatorHighIsBad":{
-    "Mortality from chronic liver disease": true,
-    "Alcohol-specific mortality": true,
-    "Months of life lost due to alcohol": true,
-    "Admission episodes for alcohol-related conditions": true
+    "COPD QOF": true,
+    "COPD admissions": true,
+    "COPD admission per disease register": true,
+    "COPD cost per admission": true
   },
 
   "genderLabels": {
@@ -88,68 +85,28 @@
 
 
   "indicatorShortNames":{
-    "Mortality from chronic liver disease": "Mortality LD",
-    "Alcohol-specific mortality": "Alcohol mortality",
-    "Months of life lost due to alcohol": "Months lost",
-    "Admission episodes for alcohol-related conditions": "Admission"
+    "COPD QOF": "QOF",
+    "COPD admissions": "Admissions",
+    "COPD admission per disease register": "Adm per register",
+    "COPD cost per admission": "Adm cost"
   },
 
   "indicatorDataBaseDetails":[
-    {"indicator": "3.01 - Mortality from chronic liver disease", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
-    {"indicator": "2.01 - Alcohol-specific mortality", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
-    {"indicator": "1.01 - Months of life lost due to alcohol", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
-    {"indicator": "9.01 - Admission episodes for alcohol-related conditions (Broad)", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"}
+    {"indicator": "COPD: QOF prevalence (all ages)", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
+    {"indicator": "Total COPD admissions per 1,000 population", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
+    {"indicator": "COPD admissions per 100 patients on disease register", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
+    {"indicator": "COPD cost per admission", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"}
 
   ],
 
   "areaTypeDataBaseDetails":[
-    {"areaType": "CCG", "idKey": "CCG15CD", "databaseId": "NyZwkX8Z4x"},
-    {"areaType": "DU", "idKey": "LAD14CD", "databaseId": "N1bi86TiBx"},
-    {"areaType": "CU", "idKey": "CTYUA14CD", "databaseId": "EyZ9siTiSg"}
+    {"areaType": "CCG", "idKey": "CCG15CD", "databaseId": "NyZwkX8Z4x"}
   ],
 
 
   "areaList": {
 
-    "CU": [
-      {"id":"E10000014","name":"Hampshire","short_name":"Hampshire"},
-      {"id":"E10000009","name":"Dorset","short_name":"Dorset"},
-      {"id":"E06000054","name":"Wiltshire","short_name":"Wiltshire"},
-      {"id":"E06000044","name":"Portsmouth","short_name":"Portsmouth"},
-      {"id":"E06000045","name":"Southampton","short_name":"Soton"},
-      {"id":"E06000046","name":"Isle of Wight","short_name":"Isle Wight"},
-      {"id":"E06000029","name":"Poole","short_name":"Poole"},
-      {"id":"E06000028","name":"Bournemouth","short_name":"Brnmouth"}
 
-    ],
-
-    "DU": [
-      {"id":"E07000048","name":"Christchurch","short_name":"Chrstchrch"},
-      {"id":"E07000049","name":"East Dorset","short_name":"E Dorset"},
-      {"id":"E07000050","name":"North Dorset","short_name":"N Dorset"},
-      {"id":"E07000051","name":"Purbeck","short_name":"Purbeck"},
-      {"id":"E07000052","name":"West Dorset","short_name":"W Dorset"},
-      {"id":"E07000053","name":"Weymouth and Portland","short_name":"Wmth Prtln"},
-      {"id":"E07000084","name":"Basingstoke and Deane","short_name":"Bstke Dn"},
-      {"id":"E07000085","name":"East Hampshire","short_name":"E Hampshire"},
-      {"id":"E07000086","name":"Eastleigh","short_name":"Eastleigh"},
-      {"id":"E07000087","name":"Fareham","short_name":"Fareham"},
-      {"id":"E07000088","name":"Gosport","short_name":"Gosport"},
-      {"id":"E07000089","name":"Hart","short_name":"Hart"},
-      {"id":"E07000090","name":"Havant","short_name":"Havant"},
-      {"id":"E07000091","name":"New Forest","short_name":"New Forest"},
-      {"id":"E07000092","name":"Rushmoor","short_name":"Rushmoor"},
-      {"id":"E07000093","name":"Test Valley","short_name":"TestValley"},
-      {"id":"E07000094","name":"Winchester","short_name":"Winchester"},
-      {"id":"E06000054","name":"Wiltshire","short_name":"Wiltshire"},
-      {"id":"E06000044","name":"Portsmouth","short_name":"Portsmouth"},
-      {"id":"E06000045","name":"Southampton","short_name":"Soton"},
-      {"id":"E06000046","name":"Isle of Wight","short_name":"Isle Wight"},
-      {"id":"E06000029","name":"Poole","short_name":"Poole"},
-      {"id":"E06000028","name":"Bournemouth","short_name":"Brnmouth"}
-
-
-    ],
 
     "CCG": [
       {"id":"E38000120","name":"North Hampshire","short_name":"N Hants"},
