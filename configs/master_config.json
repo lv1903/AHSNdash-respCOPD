@@ -40,18 +40,18 @@
 
 
   "indicatorMapping":{
-    "COPD QOF": "COPD: QOF prevalence (all ages)",
-    "COPD admissions": "Total COPD admissions per 1,000 population",
-    "COPD admission per disease register": "COPD admissions per 100 patients on disease register",
-    "COPD cost per admission": "COPD cost per admission"
+    "COPD QOF": "Estimated prevalence of COPD (all ages)",
+    "COPD admissions": "COPD: QOF prevalence (all ages)",
+    "COPD admission per disease register": "Total COPD admissions per 1,000 population",
+    "COPD cost per admission": "Emergency COPD admissions per 1,000 population"
 
   },
 
   "indicatorArray":[
-    "COPD QOF",
-    "COPD admissions",
-    "COPD admission per disease register",
-    "COPD cost per admission"
+    "COPD Est prevalence",
+    "COPD QOF prev",
+    "COPD adm per pop",
+    "COPD emerg adm"
   ],
 
 
@@ -92,10 +92,10 @@
   },
 
   "indicatorDataBaseDetails":[
+    {"indicator": "Estimated prevalence of COPD (all ages)", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
     {"indicator": "COPD: QOF prevalence (all ages)", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
     {"indicator": "Total COPD admissions per 1,000 population", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
-    {"indicator": "COPD admissions per 100 patients on disease register", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"},
-    {"indicator": "COPD cost per admission", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"}
+    {"indicator": "Emergency COPD admissions per 1,000 population", "indicatorKey": "Indicator", "databaseId": "Bkl8P6-Jr"}
 
   ],
 
