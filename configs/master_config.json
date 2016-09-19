@@ -1,8 +1,8 @@
 {
 
   "defaultArea": "Wessex",
-  "defaultPeriod": 2013,
-  "firstPeriod": 2008,
+  "defaultPeriod": 2011,
+  "firstPeriod": 2006,
   "lastPeriod": 2015,
 
 
@@ -31,64 +31,61 @@
 
 
   "genderMapping":{
-    "males": "Male",
-    "females": "Female",
     "persons": "Persons"
   },
 
-  "genderArray": ["Male", "Female", "Persons"],
+
+  "genderArray": ["Persons"],
 
 
   "indicatorMapping":{
-    "COPD QOF": "Estimated prevalence of COPD (all ages)",
-    "COPD admissions": "COPD: QOF prevalence (all ages)",
-    "COPD admission per disease register": "Total COPD admissions per 1,000 population",
-    "COPD cost per admission": "Emergency COPD admissions per 1,000 population"
+    "Estimated COPD prevalence": "Estimated prevalence of COPD (all ages)",
+    "QOF COPD prevalence": "COPD: QOF prevalence (all ages)",
+    "Total COPD admissions": "Total COPD admissions per 1,000 population",
+    "Emergency COPD admissions": "Emergency COPD admissions per 1,000 population"
 
   },
 
   "indicatorArray":[
-    "COPD Est prevalence",
-    "COPD QOF prev",
-    "COPD adm per pop",
-    "COPD emerg adm"
+    "Estimated COPD prevalence",
+    "QOF COPD prevalence",
+    "Total COPD admissions",
+    "Emergency COPD admissions"
   ],
 
 
   "indicatorLabels":{
-    "COPD QOF": "% patients",
-    "COPD admissions": "admissions per 1,000",
-    "COPD admission per disease register": "admissions per 100 patients",
-    "COPD cost per admission": "£ per admissions"
+    "Estimated COPD prevalence": "% patients",
+    "QOF COPD prevalence": "% patients",
+    "Total COPD admissions": "admissions per 1,000 population",
+    "Emergency COPD admissions": "admissions per 1,000 population"
   },
 
   "indicatorCountLabels":{
-    "COPD QOF": "",
-    "COPD admissions": "admissions per 1,000",
-    "COPD admission per disease register": "admissions per 100 patients",
-    "COPD cost per admission": "£ per admissions"
+    "Estimated COPD prevalence": "",
+    "QOF COPD prevalence": "",
+    "Total COPD admissions": "admitted",
+    "Emergency COPD admissions": "admitted"
   },
 
 
   "indicatorHighIsBad":{
-    "COPD QOF": true,
-    "COPD admissions": true,
-    "COPD admission per disease register": true,
-    "COPD cost per admission": true
+    "Estimated COPD prevalence": true,
+    "QOF COPD prevalence": true,
+    "Total COPD admissions": true,
+    "Emergency COPD admissions": true
   },
 
   "genderLabels": {
-    "Male": "males",
-    "Female": "females",
     "Persons": "persons"
   },
 
 
   "indicatorShortNames":{
-    "COPD QOF": "QOF",
-    "COPD admissions": "Admissions",
-    "COPD admission per disease register": "Adm per register",
-    "COPD cost per admission": "Adm cost"
+    "Estimated COPD prevalence": "est COPD",
+    "QOF COPD prevalence": "QOF COPD prev",
+    "Total COPD admissions": "Total COPD adm",
+    "Emergency COPD admissions": "Emergy COPD adm"
   },
 
   "indicatorDataBaseDetails":[
