@@ -9,6 +9,10 @@ block content
       var config_obj = !{JSON.stringify(config_obj)};
       var state_obj = !{JSON.stringify(state_obj)};
 
+      console.log(config_obj.indicatorArray)
+
+
+
 
 
    .container
@@ -62,16 +66,22 @@ block content
       #areaTypeSelector
          h3 Boundary Types:
          select(onchange='areaTypeChange()')#areaTypeSelect
-            option(value='CCG') CCGs
-            option(value='CU') Counties and Unitaries
-            option(value='DU') Districts and Unitaries
+            each val, key in config_obj.areaTypeMapping
+              option(value=val) #{key}
+
+            //option(value='CCG') CCGs
+            //option(value='CU') Counties and Unitaries
+            //option(value='DU') Districts and Unitaries
 
       #genderSelector
          h3 Gender:
          select(onchange='anyChange()')#genderSelect
-            option(value='Male') Male
-            option(value='Female') Female
-            option(value='Persons') Persons
+            each val, key in config_obj.genderMapping
+              option(value=val) #{key}
+
+            //option(value='Male') Male
+            //option(value='Female') Female
+            //option(value='Persons') Persons
 
 
 
