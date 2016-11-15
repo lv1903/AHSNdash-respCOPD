@@ -610,7 +610,7 @@ app.get("/pdf/datavis/alcdash/:reportType/:areaType/:indicator/:gender/:area", f
             format: "A4",
             orientation: 'landscape',
             margin: '0cm'
-        };    
+        };
 
     var zoomFactor = 1;
 
@@ -662,9 +662,9 @@ app.get("/pdf/datavis/alcdash/:reportType/:areaType/:indicator/:gender/:area", f
                             if(err){console.log(err.message)}
                             fs.unlink(file)
                         })
-			ph.exit();	
-                    })		    
-                });                
+			ph.exit();
+                    })
+                });
             });
         })
     }, {
@@ -683,4 +683,4 @@ app.get("/data_visualisation", function(req,res) {
   res.redirect("http://cisdata.soton.ac.uk/data_visualisation");
 });
 
-app.listen(3011);
+app.listen(3013);
