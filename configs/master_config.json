@@ -57,8 +57,8 @@
   "indicatorLabels":{
     "Estimated COPD prevalence": "% patients",
     "QOF COPD prevalence": "% patients",
-    "Total COPD admissions": "admissions per 1,000 population",
-    "Emergency COPD admissions": "admissions per 1,000 population"
+    "Total COPD admissions": "admissions per 1,000",
+    "Emergency COPD admissions": "admissions per 1,000"
   },
 
   "indicatorCountLabels":{
