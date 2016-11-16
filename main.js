@@ -98,7 +98,7 @@ var callNestObj = function(){
 
 /*------------------------------------------------------------------*/
 
-app.get("/datavis/alcdash", function(req, res){
+app.get("/datavis/copd", function(req, res){
 
     var reportType = "Intro";
 
@@ -169,7 +169,7 @@ app.get("/datavis/alcdash", function(req, res){
 
 });
 
-app.get("/datavis/alcdash/select/:reportType/:areaType/:indicator/:gender/:area", function(req, res){
+app.get("/datavis/copd/select/:reportType/:areaType/:indicator/:gender/:area", function(req, res){
 
     var reportType = req.params["reportType"];
     var areaType = req.params["areaType"];
@@ -200,7 +200,7 @@ app.get("/datavis/alcdash/select/:reportType/:areaType/:indicator/:gender/:area"
 
 });
 
-app.get("/datavis/alcdash/share/:reportType/:areaType/:indicator/:gender/:area", function(req, res){
+app.get("/datavis/copd/share/:reportType/:areaType/:indicator/:gender/:area", function(req, res){
 
     var reportType = req.params["reportType"];
     var areaType = req.params["areaType"];
@@ -231,7 +231,7 @@ app.get("/datavis/alcdash/share/:reportType/:areaType/:indicator/:gender/:area",
 
 });
 
-app.get("/datavis/alcdash/source/:reportType/:areaType/:indicator/:gender/:area", function(req, res){
+app.get("/datavis/copd/source/:reportType/:areaType/:indicator/:gender/:area", function(req, res){
 
         var reportType = req.params["reportType"];
         var areaType = req.params["areaType"];
@@ -262,7 +262,7 @@ app.get("/datavis/alcdash/source/:reportType/:areaType/:indicator/:gender/:area"
 
     });
 
-app.get("/datavis/alcdash/IndicatorReport/:areaType/:indicator/:gender/:area", function(req, res) {
+app.get("/datavis/copd/IndicatorReport/:areaType/:indicator/:gender/:area", function(req, res) {
 
     var reportType = req.params["reportType"];
 
@@ -349,7 +349,7 @@ app.get("/datavis/alcdash/IndicatorReport/:areaType/:indicator/:gender/:area", f
 
 });
 
-app.get("/datavis/alcdash/AreaReport/:areaType/:area/:gender", function(req, res) {
+app.get("/datavis/copd/AreaReport/:areaType/:area/:gender", function(req, res) {
 
     var pdf = false;
     if(req.headers['user-agent'].indexOf("PhantomJS") > 0){pdf = true} //for removing certain elements from pdf
@@ -432,7 +432,7 @@ app.get("/datavis/alcdash/AreaReport/:areaType/:area/:gender", function(req, res
 
 });
 
-app.get("/datavis/alcdash/OverviewReport/:areaType/:area/:gender", function(req, res) {
+app.get("/datavis/copd/OverviewReport/:areaType/:area/:gender", function(req, res) {
 
     var pdf = false;
     if(req.headers['user-agent'].indexOf("PhantomJS") > 0){pdf = true} //for removing certain elements from pdf
@@ -513,7 +513,7 @@ app.get("/datavis/alcdash/OverviewReport/:areaType/:area/:gender", function(req,
 
 });
 
-app.get("/pdf/datavis/alcdash/:reportType/:areaType/:area/:gender", function(req, res) {
+app.get("/pdf/datavis/copd/:reportType/:areaType/:area/:gender", function(req, res) {
 
 
     var reportType = req.params["reportType"];
@@ -600,7 +600,7 @@ app.get("/pdf/datavis/alcdash/:reportType/:areaType/:area/:gender", function(req
 
 });
 
-app.get("/pdf/datavis/alcdash/:reportType/:areaType/:indicator/:gender/:area", function(req, res) {
+app.get("/pdf/datavis/copd/:reportType/:areaType/:indicator/:gender/:area", function(req, res) {
 
 
     var reportType = req.params["reportType"];

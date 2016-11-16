@@ -15,7 +15,7 @@
     "serve-favicon": "~2.3.0",
     "crossfilter": "1.3.12",
     "kernel-smooth": "*",
-    "topojson": "*",
+    "topojson": "1.6.21",
     "phantom": "*",
     "phantomjs": "~2.1.3"
   }
